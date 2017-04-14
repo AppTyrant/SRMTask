@@ -204,7 +204,7 @@ NSString * const SRMTaskErrorDomain = @"com.srmerror.domain";
             break;
             
         default:
-            ATLog(@"Debug this!");
+            NSLog(@"Debug this!");
             break;
     }
 }
